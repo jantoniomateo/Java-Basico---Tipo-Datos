@@ -1,0 +1,26 @@
+package com.Ejercicio4;
+
+public class SmartPhone extends SmartDevice {
+
+    // Constructores
+
+    public SmartPhone(){
+
+    }
+
+    public SmartPhone(String tipo, String color, String marca, String modelo, int capacidadBateria, boolean encendido) {
+        super(tipo, color, marca, modelo, capacidadBateria, encendido);
+    }
+
+    @Override
+    public String toString() {
+        return "SmartPhone{" +
+                "tipo='" + tipo + '\'' +
+                ", color='" + color + '\'' +
+                ", marca='" + marca + '\'' +
+                ", modelo='" + modelo + '\'' +
+                ", capacidadBateria=" + capacidadBateria +
+                ", encendido=" + encendido +
+                '}';
+    }
+}
