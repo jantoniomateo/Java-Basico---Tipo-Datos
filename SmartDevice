@@ -1,0 +1,28 @@
+package com.Ejercicio4;
+
+public class SmartDevice {
+
+    // Atributos
+
+    String tipo;
+    String color;
+    String marca;
+    String modelo;
+    int capacidadBateria;
+    boolean encendido;
+
+    // Consturctores
+
+    public SmartDevice(){
+
+    }
+
+    public SmartDevice(String tipo, String color, String marca, String modelo, int capacidadBateria, boolean encendido) {
+        this.tipo = tipo;
+        this.color = color;
+        this.marca = marca;
+        this.modelo = modelo;
+        this.capacidadBateria = capacidadBateria;
+        this.encendido = encendido;
+    }
+}
