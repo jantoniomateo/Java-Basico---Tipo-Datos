@@ -1,0 +1,35 @@
+package com.Ejercicio4;
+
+public class SmartWatch extends SmartDevice {
+
+    // Atributos
+
+    String tipoDeCorrea;
+    float tamañoPantalla;
+
+
+    // Constructores
+
+    public SmartWatch(){
+
+    }
+
+    public SmartWatch(String tipo, String color, String marca, String modelo, int capacidadBateria, boolean encendido, String tipoDeCorrea, float tamañoPantalla) {
+        super(tipo, color, marca, modelo, capacidadBateria, encendido);
+        this.tipoDeCorrea = tipoDeCorrea;
+        this.tamañoPantalla = tamañoPantalla;
+    }
+
+    @Override
+    public String toString() {
+        return "SmartWatch{" +
+                "tipo='" + tipo + '\'' +
+                ", color='" + color + '\'' +
+                ", marca='" + marca + '\'' +
+                ", modelo='" + modelo + '\'' +
+                ", capacidadBateria=" + capacidadBateria +
+                ", encendido=" + encendido +
+                ", tamañoPantalla=" + tamañoPantalla +
+                '}';
+    }
+}
